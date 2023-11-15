@@ -93,13 +93,13 @@ public class App {
                     case 'P':
                     case 'p':
                         System.out.println("Saliendo de la App");
-                        intentos = intentosMaximos ++; // exit the loop
+                        intentos = intentosMaximos ++; 
                         break;
 
                     default:
                         System.out.println("Opcion incorrecta/no valida.");
                         System.out.println("Saliendo de la App");
-                        intentos = intentosMaximos ++; // exit the loop
+                        intentos = intentosMaximos ++; 
                         break;
                 }
             } catch (Exception e) {
